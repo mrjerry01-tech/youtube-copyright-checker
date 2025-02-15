@@ -3,8 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-# Replace with your own YouTube Data API Key
-YOUTUBE_API_KEY = "YOUR_YOUTUBE_API_KEY"
+YOUTUBE_API_KEY = "AIzaSyDJIibBPbd6gUI4_VSuCrEOsO0gifdQE6k"
 YOUTUBE_VIDEO_INFO_URL = "https://www.googleapis.com/youtube/v3/videos"
 
 @app.route('/check_copyright', methods=['GET'])
